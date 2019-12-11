@@ -19,7 +19,6 @@ body, html {
 }
 
 .keypad {
-  height: 370px;
   overflow: hidden;
   position: relative;
   width: 288px;
