@@ -20,8 +20,8 @@ const SUPER_HEROS = ["SUPERMAN", "THOR", "ROBIN", "IRONMAN", "GHOSTRIDER", "CAPT
             var temp = [];
             var result = [];
         get_superhero(digits,temp, result, KEY_PAD);
-
-        return match_superhero(result);
+           let s_n = match_superhero(result);
+        return s_n.length>0?s_n:'No Super Hero';
     }
 
     var match_superhero = (keywords) => {
