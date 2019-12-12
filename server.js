@@ -36,10 +36,6 @@ const SUPER_HEROS = ["SUPERMAN", "THOR", "ROBIN", "IRONMAN", "GHOSTRIDER", "CAPT
 
     var get_superhero = (digits, temp, result, map) => {
       if(digits.length == 0){
-          var arr = [];
-          for(var i=0; i<temp.length; i++){
-              arr[i] = temp[i];
-          }
           result.push(arr.join(''));
           return;
       }
